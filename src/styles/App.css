@@ -1,0 +1,21 @@
+.App {
+    height: 80vh;
+    max-width: 50em;
+    margin: auto;
+    margin-top: 10em;
+}
+
+.calculatorContainer {
+    background-color: rgba(131, 131, 131, 0.404);
+    padding: 2em;
+    box-shadow: 10px 10px 5px rgba(148, 148, 148, 0.2);
+    border-radius: 1em;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}

@@ -1,0 +1,16 @@
+.clearButton {
+    padding: 1em;
+    width: 100%;
+    font-size: large;
+    margin: 0.2em 0 0.2em 0;
+    background-color: rgb(255, 199, 176);
+}
+
+.clearButton:hover {
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+.clearButton:active {
+    background-color: rgb(255, 199, 176);
+}

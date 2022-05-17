@@ -1,0 +1,9 @@
+.screen {
+    padding: 1em;
+    border: 1px solid;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 1.5em;
+    background-color: whitesmoke;
+    font-size: 2em;
+}

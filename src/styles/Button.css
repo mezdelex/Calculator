@@ -1,0 +1,34 @@
+.regularButton,
+.operationButton {
+    padding: 1em;
+    min-width: 10em;
+    font-size: large;
+    margin: 0.2em 0 0.2em 0;
+}
+
+.regularButton {
+    background-color: rgb(125, 152, 161);
+}
+
+.regularButton:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.regularButton:active {
+    background-color: rgb(125, 152, 161);
+}
+
+
+.operationButton {
+    background-color: rgb(230, 180, 180);
+}
+
+.operationButton:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.operationButton:active {
+    background-color: rgb(230, 180, 180);
+}
