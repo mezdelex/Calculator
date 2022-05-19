@@ -1,34 +1,42 @@
+:root {
+    --regular-before: rgb(125, 152, 161);
+    --regular-after: lightblue;
+    --operation-before: rgb(228, 153, 153);
+    --operation-after: rgb(255, 195, 195);
+}
+
 .regularButton,
 .operationButton {
     padding: 1em;
     min-width: 10em;
     font-size: large;
     margin: 0.2em 0 0.2em 0;
+    transition: .5s;
 }
 
 .regularButton {
-    background-color: rgb(125, 152, 161);
+    background-color: var(--regular-before);
 }
 
 .regularButton:hover {
-    background-color: lightblue;
+    background-color: var(--regular-after);
     cursor: pointer;
 }
 
 .regularButton:active {
-    background-color: rgb(125, 152, 161);
+    background-color: var(--regular-before);
 }
 
 
 .operationButton {
-    background-color: rgb(230, 180, 180);
+    background-color: var(--operation-before);
 }
 
 .operationButton:hover {
-    background-color: lightcoral;
+    background-color: var(--operation-after);
     cursor: pointer;
 }
 
 .operationButton:active {
-    background-color: rgb(230, 180, 180);
+    background-color: var(--operation-before);
 }

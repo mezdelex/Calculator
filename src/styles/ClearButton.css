@@ -1,16 +1,22 @@
+:root {
+    --clear-before: lightsalmon;
+    --clear-after: rgb(255, 202, 180);
+}
+
 .clearButton {
     padding: 1em;
     width: 100%;
     font-size: large;
     margin: 0.2em 0 0.2em 0;
-    background-color: rgb(255, 199, 176);
+    background-color: var(--clear-before);
+    transition: .5s;
 }
 
 .clearButton:hover {
-    background-color: lightsalmon;
+    background-color: var(--clear-after);
     cursor: pointer;
 }
 
 .clearButton:active {
-    background-color: rgb(255, 199, 176);
+    background-color: var(--clear-before);
 }
